@@ -1,4 +1,12 @@
 package co.kr.effectivejava.item4;
 
-public class Car extends Utility{
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Car {
+
+    private int speed;
+
 }
