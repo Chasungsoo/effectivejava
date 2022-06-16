@@ -1,4 +1,7 @@
 package co.kr.effectivejava.item5;
 
-public class Company {
+import lombok.Getter;
+
+public abstract class Company {
+    abstract String checkCompany();
 }
